@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin-Board-Mockup</title>
+    <script src="https://kit.fontawesome.com/c8196529c9.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -11,43 +12,67 @@
         <div class="sidebar">
             <h1>Dashboard</h1>
             <ul id="navigation">
-                <li>Home</li>
-                <li>Profile</li>
-                <li>Messages</li>
-                <li>History</li>
-                <li>Tasks</li>
-                <li>Communities</li>
+                <li>
+                    <i class="fas fa-house"></i>
+                    <span>Home</span>
+                </li>
+                <li>
+                    <i class="fas fa-address-card"></i>
+                    <span>Profile</span>
+                </li>
+                <li>
+                    <i class="fas fa-message"></i>
+                    <span>Messages</span>
+                </li>
+                <li>
+                    <i class="fas fa-clock"></i>
+                    <span>History</span>
+                </li>
+                <li>
+                    <i class="fas fa-list-check"></i>
+                    <span>Tasks</span>
+                </li>
+                <li>
+                    <i class="fas fa-users"></i>
+                    <span>Communities</span>
+                </li>
             </ul>
             <ul id="settings">
-                <li>Settings</li>
-                <li>Support</li>
-                <li>Privacy</li>
+                <li>
+                    <i class="fas fa-gear"></i>
+                    <span>Settings</span>
+                </li>
+                <li>
+                    <i class="fas fa-circle-question"></i>
+                    <span>Support</span>
+                </li>
+                <li>
+                    <i class="fas fa-user-shield"></i>
+                    <span>Privacy</span>
+                </li>
             </ul>
         </div>
         <div class="header">
             <div class="search">
-                <span>Search</span>
+                <i class="fas fa-magnifying-glass"></i>
                 <input type="text" class="search">
             </div>
             <div class="account">
-                <ul>
-                    <li>Notifs</li>
-                    <li>Account Settings</li>
-                </ul>
+                <i class="far fa-bell"></i>
+                <span>John Doe</span>
+                <img src="images/cat-profile.jpeg" alt="avatar" class="avatar">
             </div>
             <div class="welcome">
-                <span>Profile Image</span>
+                <img src="images/cat-profile.jpeg" alt="avatar" class="avatar">
                 <div class="user-greeting">
                     <p id="greeting">Hi there,</p>
                     <p id="user">John Doe (@jdoe)</p>
                 </div>
             </div>
             <div class="make-post">
-                <ul>
-                    <li><button>New</button></li>
-                    <li><button>Upload</button></li>
-                    <li><button>Share</button></li>
-                </ul>
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
             </div>
         </div>
         <div class="main">
