@@ -253,6 +253,33 @@ ul {
     margin-right: 1rem;
 }
 
+.announcement-container {
+    background-color: #ffffff;
+    border-style: none;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem;
+    margin: .5rem 1rem 0 0;
+    flex: 1;
+}
+
+.announcement-container p {
+    font-size: 12px;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+.announcement-container .announcement {
+    padding: 0.9rem 0.25rem;
+    margin: 0 8px;
+}
+
+.announcement-container div:not(:last-child) {
+    border-bottom: 1px solid #969696;
+}
 
 /* Profile Picture Styling */
 
